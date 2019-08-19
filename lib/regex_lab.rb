@@ -16,7 +16,7 @@ end
 
 def valid_phone_number?(phone)
   if phone.scan(/(\d+)-(\d+)-(\d+)/)
-    return true 
+    return true
   else
     return false
   end
